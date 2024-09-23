@@ -211,8 +211,10 @@ button:hover {
 
 .top-container {
   background-color: #f5f5ed;
-  justify-content: center;
+  /* justify-content: center; */
   height: 450px;
+  margin: auto;
+  max-width: 1100px;
 }
 
 .Top {
@@ -221,23 +223,22 @@ button:hover {
   height: 80px;
   font-size: 25px;
   font-weight: 500;
-  /* margin-bottom: 3rem; */
 }
 
 .image-container {
-  display: flex;
+  /* width: 100%  ; */
+  /* display: flex;  */
   /* border: 1px solid rebeccapurple; */
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .image-content {
   flex-wrap: wrap;
   display: flex;
+  gap: 1rem;
+  justify-content: center;
   /* border: 1px solid black; */
-  /* gap: 1rem; */
   row-gap: 2rem;
-  max-width: 1050px;
-  justify-content: space-between;
 }
 .image {
   /* border: 1px solid black; */
@@ -333,26 +334,58 @@ button:hover {
 }
 
 .bada-container {
-  border: 2px solid black;
+  max-width: 1100px;
+  margin: auto;
   justify-content: center;
 }
 
 .chota-container {
-  border: 2px solid red;
-  justify-content: space-between;
-  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+.content-heading1 {
+  text-align: center;
+  font-weight: 500;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  line-height: 40px;
+  font-size: 1.7rem;
+  color: #000000;
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 
 .big-box {
-  display: flex;
-  /* display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr)); */
+  /* border: 1px solid black; */
+  height: 460px;
+  width: 470px;
+  background-color: #f5f5ed;
+  padding: 35px;
+  border-radius: 5px;
 }
 
-.box {
-  border: 2px solid greenyellow;
-  width: 350px;
-  padding: 1.5rem;
-  /* height: 600px; */
-  /* width: 500px; */
+.image1 > img {
+  width: 390px;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.class {
+  border-left: 4px solid #fa641e;
+  padding-left: 4px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.class1 {
+  line-height: 25px;
+  font-size: smaller;
+  color: #3f423e;
 }
