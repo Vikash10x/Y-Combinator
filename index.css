@@ -192,9 +192,10 @@ button:hover {
   width: 310px;
   padding: 17px;
   background-color: #ffffff;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   border-radius: 8px;
   height: 155px;
+  cursor: pointer;
 }
 
 .para {
@@ -211,7 +212,7 @@ button:hover {
 .top-container {
   background-color: #f5f5ed;
   justify-content: center;
-  height: 800px;
+  height: 450px;
 }
 
 .Top {
@@ -233,9 +234,9 @@ button:hover {
   flex-wrap: wrap;
   display: flex;
   /* border: 1px solid black; */
-  gap: 1rem;
+  /* gap: 1rem; */
   row-gap: 2rem;
-  max-width: 1100px;
+  max-width: 1050px;
   justify-content: space-between;
 }
 .image {
@@ -248,14 +249,110 @@ button:hover {
   align-items: center;
   justify-content: center;
   display: flex;
-  /* padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem; */
+  cursor: pointer;
+}
+
+.plus {
+  font-size: 25px;
 }
 
 .image > img {
   width: 100%;
   height: 23px;
   object-fit: contain;
+}
+
+.long-container {
+  display: flex;
+  height: 700px;
+  /* border: 1px solid black; */
+  justify-content: center;
+}
+
+.small-container {
+  /* border: 1px solid black; */
+  margin-top: 70px;
+}
+
+.content-heading {
+  /* border: 1px solid black; */
+  text-align: center;
+  font-weight: 500;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  line-height: 40px;
+  font-size: 1.875rem;
+}
+
+.color {
+  color: #fa641e;
+}
+.color1 {
+  color: #118bd1;
+}
+
+.big-contant {
+  /* border: 1px solid black; */
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  gap: 40px;
+}
+
+.table {
+  /* border: 1px solid black; */
+  max-width: 195px;
+}
+
+.user {
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+  max-height: 108px;
+  font-size: 18px;
+  padding-left: 1rem;
+  line-height: 22px;
+  display: flex;
+  border-left: 4px solid #fa641e;
+}
+
+.table1 {
+  flex-direction: column;
+  /* border: 1px solid red; */
+  margin-left: 1.25rem;
+}
+
+.user2 {
+  color: black;
+  font-size: 14px;
+  display: list-item;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.bada-container {
+  border: 2px solid black;
+  justify-content: center;
+}
+
+.chota-container {
+  border: 2px solid red;
+  justify-content: space-between;
+  max-width: 1100px;
+}
+
+.big-box {
+  display: flex;
+  /* display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); */
+}
+
+.box {
+  border: 2px solid greenyellow;
+  width: 350px;
+  padding: 1.5rem;
+  /* height: 600px; */
+  /* width: 500px; */
 }
