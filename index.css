@@ -164,14 +164,6 @@ button:hover {
   cursor: pointer;
 }
 
-.top-big-container {
-  /* background-color: #f5f5ed; */
-  background-color: #ffffff;
-
-  /* max-width: 1100px;
-  margin: auto; */
-}
-
 .big-card {
   height: 290px;
   padding-top: 20px;
@@ -284,6 +276,7 @@ button:hover {
   margin-bottom: 3rem;
   line-height: 40px;
   font-size: 1.875rem;
+  /* padding-top: 70px; */
 }
 
 .color {
@@ -396,6 +389,7 @@ button:hover {
 }
 .vk {
   /* border: 1px solid black; */
+  padding-top: 60px;
   width: 100%;
 }
 
@@ -413,14 +407,16 @@ button:hover {
   font-weight: 500;
   margin-bottom: 30px;
   line-clamp: 1;
-  display: inline-block;
 }
 
 .dot {
-  background-color: #e6510d;
+  background-color: #fc50008f;
   height: 10px;
   width: 10px;
-  display: block;
+  display: inline-block;
+  margin-right: 10px;
+  rotate: 45deg;
+  box-shadow: 0px 0px 5px 0px #fc50008f;
 }
 
 .images {
@@ -567,8 +563,12 @@ img {
   font-size: 15px;
 }
 
-.last-step {
+.last-stage {
   background-color: #f5f5ed;
+  width: 100%;
+}
+.last-step {
+  /* background-color: #f5f5ed; */
   padding-top: 70px;
   padding-bottom: 70px;
   max-width: 1100px;
