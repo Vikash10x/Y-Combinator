@@ -162,6 +162,7 @@ button:hover {
   height: 54px;
   width: 55px;
   cursor: pointer;
+  border-radius: 0;
 }
 
 .big-card {
