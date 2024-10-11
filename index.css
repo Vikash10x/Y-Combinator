@@ -538,6 +538,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  /* border: 1px solid red; */
 }
 
 .work-box1 {
@@ -548,6 +549,7 @@ img {
   padding: 1rem;
   border-radius: 5px;
   max-width: 345px;
+  border: 1px solid black;
 }
 .works {
   max-width: 250px;
