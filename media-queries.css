@@ -23,10 +23,6 @@
     display: none;
   }
 
-  .top-container {
-    /* margin-top: 300px; */
-  }
-
   .money1 {
     display: none;
   }
@@ -42,10 +38,14 @@
 
 @media screen and (max-width: 550px) {
   .contant {
-    margin-left: 120px;
-    margin-top: 90px;
-    margin-bottom: 80px;
-    /* background-color: rd; */
+    margin-left: 0px;
+    padding: 70px 70px;
+    margin-top: 0px;
+    border: 1px solid red;
+  }
+  .n2 {
+    max-width: 980px;
+    flex-wrap: nowrap;
   }
 
   .big-card {
@@ -98,7 +98,35 @@
   .vk1 {
     padding-bottom: 40px;
   }
+  .work {
+    max-width: 400px;
+  }
   .work-box {
-    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .work-box1 {
+    max-width: 900px;
+    /* gap: 5rem; */
+  }
+  .works {
+    max-width: 380px;
+  }
+
+  .last-container {
+    max-width: 320px;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    display: block;
+  }
+  .last-container img {
+    height: 60px;
+    width: 60px;
+  }
+  .program-name > p:nth-of-type(1) {
+    margin-top: 35px;
+  }
+  .button1 {
+    margin-top: 35px;
   }
 }
